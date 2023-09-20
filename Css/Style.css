@@ -1,0 +1,93 @@
+#padre{
+    padding: 20px;
+}
+#detalleAsignacion {
+  /* Hace que el div ocupe todo el espacio restante disponible */
+    margin-left: 5px;/* Opcional: para dar un margen izquierdo */
+  }
+.contenedor {
+    display: flex; /* Utilizamos flexbox */
+    justify-content: center; /* Centramos horizontalmente */
+    align-items: center; /* Centramos verticalmente */
+    /* Otras propiedades de estilo, como el tamaño o el color de fondo, según sea necesario */
+ }
+ #body {
+  margin-top: 40px;
+  margin-bottom: 10px;
+ }
+ .productos{
+  margin-top: -35px;
+ }
+ .select-menu .select-btn{
+  display: flex;
+  height:55px;
+  background: #fff;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  align-items: center;
+  
+  justify-content: space-between;
+  box-shadow: 0 0 5px rgba(red, green, blue, alpha);
+ }
+ .select-btn{
+  font-size: 25px;
+ }
+ .select2-selection{
+  min-height: 38px;
+ }
+ .select-menu .selectGrupo{
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;
+  border-radius: 8px;
+  background: #fff;
+  cursor: pointer;
+  box-shadow: 0 0 3px;
+ }
+ .selectGrupo :hover{
+  cursor: pointer;
+ }
+ .option{
+  display: flex;
+  /* height: 55px; */
+  padding:  0 16px;
+  align-items:center;
+  background: #fdfbfb;
+  width: 99%;
+ }
+ .disponibles {
+  display: inline-block;
+  margin-left: 10%;
+  padding: 5px 5px;
+  border-radius: 20px;
+  background-color: #ece9e9;
+  color: #333;
+  font-size: 14px;
+}
+
+.list-group-item .badge {
+  margin-right: 5px; /* Ajusta este valor según la separación deseada */
+}
+.rotated {
+  transform: rotate(180deg);
+}
+.rotated2 {
+  transform: rotate(-180deg);
+}
+.colaboradores{
+  display: flex;
+  padding-bottom: 30px;
+}
+.checkbox{
+  padding-left: 10px;
+}
+.indefinido{
+  display: inline-block;
+
+  padding: 5px 5px;
+  border-radius: 20px;
+  background-color: #0069cc;
+  color: #ffffff;
+  font-size: 14px;
+}
